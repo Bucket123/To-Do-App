@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #d16ba5, #c472b5, #b47ac3, #a182ce, #8b89d5, #7392db, #5899de, #3aa0dc, #00a9d8, #00b0ce, #00b6c1, #30bbb2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 450px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    gap: 8px;
+}
+
+.todo-app h1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.todo-app h1 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+.button input{
+    width: 90%;
+    border: none;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.button button{
+    /* width: 90%; */
+    border: none;
+    border-radius: 18px;
+    padding: 10px;
+}
